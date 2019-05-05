@@ -1,0 +1,3 @@
+/home/nvidia/git/nano_mv/my-recognition/CMakeFiles/edit_cache.dir
+/home/nvidia/git/nano_mv/my-recognition/CMakeFiles/rebuild_cache.dir
+/home/nvidia/git/nano_mv/my-recognition/CMakeFiles/my-recognition.dir
