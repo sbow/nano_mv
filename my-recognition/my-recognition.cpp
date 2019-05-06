@@ -30,7 +30,7 @@ int main( int argc, char** argv )
 	// load the image from disk as float4 RGBA (32 bits per channel, 128 bits per pixel)
 	if( !loadImageRGBA(imgFilename, (float4**)&imgCPU, (float4**)&imgCUDA, &imgWidth, &imgHeight) )
 	{
-		pritf("failed to load image '%s'\n", imgFilename);
+		printf("failed to load image '%s'\n", imgFilename);
 		return 0;
 	}
 
@@ -41,7 +41,7 @@ int main( int argc, char** argv )
 	// check to make sure that the network model loaded properly
 	if( !net )
 	{
-		pritf("failed to load image recognition network\n");
+		printf("failed to load image recognition network\n");
 		return 0;
 	}
 

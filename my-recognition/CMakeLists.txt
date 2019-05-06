@@ -18,6 +18,9 @@ find_package(Qt4)
 include(${QT_USE_FILE})
 add_definitions(${QT_DEFINITIONS})
 
+# add support for c++11 - shaun edit
+add_compile_options(-std=c++11)
+
 # compile the my-recognition program
 cuda_add_executable(my-recognition my-recognition.cpp)
 
